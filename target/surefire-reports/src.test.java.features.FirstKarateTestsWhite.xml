@@ -1,0 +1,91 @@
+<testsuite failures="0" name="src/test/java/features/FirstKarateTestsWhite.feature" skipped="0" tests="6" time="0.466402">
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="some printing" time="0.037758">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="more printing" time="0.043429">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed
+* print 'i print more stuff' .............................................. passed
+* print 'my name is: ', 'cucumber' ........................................ passed
+* print 1 + 1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="variables" time="0.114084">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed
+* print 'i print more stuff' .............................................. passed
+* print 'my name is: ', 'cucumber' ........................................ passed
+* print 1 + 1 ............................................................. passed
+* def name = 'sub-zero' ................................................... passed
+* print "my name is " + name .............................................. passed
+* def medalCount = 2 ...................................................... passed
+* print name, 'has', medalCount, 'medals' ................................. passed
+* print name, 'has', medalCount*12, 'medals' .............................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="more difficult parameters: json object" time="0.218962">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed
+* print 'i print more stuff' .............................................. passed
+* print 'my name is: ', 'cucumber' ........................................ passed
+* print 1 + 1 ............................................................. passed
+* def name = 'sub-zero' ................................................... passed
+* print "my name is " + name .............................................. passed
+* def medalCount = 2 ...................................................... passed
+* print name, 'has', medalCount, 'medals' ................................. passed
+* print name, 'has', medalCount*12, 'medals' .............................. passed
+* def student = {'name': 'sam', 'owes_tuition': 'false'} .................. passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="more difficult parameters: json object 2" time="0.008281">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed
+* print 'i print more stuff' .............................................. passed
+* print 'my name is: ', 'cucumber' ........................................ passed
+* print 1 + 1 ............................................................. passed
+* def name = 'sub-zero' ................................................... passed
+* print "my name is " + name .............................................. passed
+* def medalCount = 2 ...................................................... passed
+* print name, 'has', medalCount, 'medals' ................................. passed
+* print name, 'has', medalCount*12, 'medals' .............................. passed
+* def student = {'name': 'sam', 'owes_tuition': 'false'} .................. passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed
+* def student = ........................................................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.isAwesome ................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.FirstKarateTestsWhite" name="more difficult parameters: json array objects" time="0.043888">
+    <system-out>Given print "hello from given" ............................................ passed
+When print 'this is from when' ............................................ passed
+Then print 'goodbye then' ................................................. passed
+* print 'i print more stuff' .............................................. passed
+* print 'my name is: ', 'cucumber' ........................................ passed
+* print 1 + 1 ............................................................. passed
+* def name = 'sub-zero' ................................................... passed
+* print "my name is " + name .............................................. passed
+* def medalCount = 2 ...................................................... passed
+* print name, 'has', medalCount, 'medals' ................................. passed
+* print name, 'has', medalCount*12, 'medals' .............................. passed
+* def student = {'name': 'sam', 'owes_tuition': 'false'} .................. passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed
+* def student = ........................................................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.isAwesome ................................................. passed
+* def students = .......................................................... passed
+* print students .......................................................... passed
+* print students[0].name .................................................. passed
+* print students[1].name .................................................. passed</system-out>
+  </testcase>
+</testsuite>
